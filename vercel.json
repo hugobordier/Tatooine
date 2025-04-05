@@ -2,9 +2,10 @@
   "builds": [
     {
       "src": "package.json",
-      "use": "@vercel/node",
+      "use": "@vercel/static-build",
       "config": {
-        "buildCommand": "bun build"
+        "buildCommand": "npm run build",
+        "outputDirectory": "build"
       }
     }
   ]
