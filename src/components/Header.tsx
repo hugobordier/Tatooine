@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X } from "react-feather";
-import CurvedDivider from "./CurvedDivder";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
