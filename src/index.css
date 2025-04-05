@@ -1,6 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
 @import "tailwindcss";
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden; /* Cache la barre de défilement globale */
+}
+
+/* Permet le défilement sur les éléments de la page sans afficher la barre de défilement */
+body {
+  overflow: scroll; /* Permet le défilement */
+}
+
+/* Cache la barre de défilement spécifique dans le navigateur */
+::-webkit-scrollbar {
+  width: 0px; /* Cache la barre de défilement horizontale */
+  height: 0px; /* Cache la barre de défilement verticale */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: transparent; /* Cache le "pouce" de la barre de défilement */
+}
+
 :root {
   --primary: #007aff;
   --secondary: #0a84ff;
