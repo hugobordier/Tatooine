@@ -33,7 +33,7 @@ const About = () => {
             <FadeInSection>
               <div className="space-y-6">
                 <h2
-                  className="text-white mb-4"
+                  className="text-white mb-6"
                   style={{ fontSize: "2rem", fontWeight: "bold" }}
                 >
                   Our Experience
@@ -100,26 +100,6 @@ const About = () => {
                       style={{ flexShrink: 0, marginTop: "0.25rem" }}
                     />
                     <p className="text-gray">
-                      Entrepreneur and Strong Team Player/Builder
-                    </p>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle
-                      size={24}
-                      className="text-primary"
-                      style={{ flexShrink: 0, marginTop: "0.25rem" }}
-                    />
-                    <p className="text-gray">
-                      People and Relationship Centric: "Team is the main KPI"
-                    </p>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle
-                      size={24}
-                      className="text-primary"
-                      style={{ flexShrink: 0, marginTop: "0.25rem" }}
-                    />
-                    <p className="text-gray">
                       Successful track records building $20M+ Annual recurring
                       revenues
                     </p>
@@ -171,9 +151,10 @@ const About = () => {
                   Vision
                 </h3>
                 <p className="text-gray">
-                  To be the premier partner for companies seeking to expand
-                  their presence in EMEA markets, known for our expertise,
-                  integrity, and consistent delivery of exceptional results.
+                  To be a trusted partner for Cybersecurity vendors seeking to
+                  expand their presence in EMEA markets, known for our
+                  expertise, integrity, and consistent delivery of exceptional
+                  results.
                 </p>
               </div>
             </FadeInSection>

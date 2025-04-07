@@ -33,111 +33,6 @@ const Services = () => {
           <div className="grid grid-3">
             <FadeInSection>
               <div className="card service-card">
-                <Search size={40} className="text-primary mb-6" />
-                <h3
-                  className="text-white"
-                  style={{
-                    fontSize: "1.5rem",
-                    fontWeight: "bold",
-                    marginBottom: "0.75rem",
-                  }}
-                >
-                  Market Opportunity Assessment
-                </h3>
-                <p className="text-gray mb-6">
-                  Comprehensive analysis of market potential, competitive
-                  landscape, and entry barriers to identify the most promising
-                  opportunities for your business.
-                </p>
-                <Link
-                  to="/contact"
-                  className="flex items-center text-primary"
-                  style={{ transition: "color 0.3s ease" }}
-                  onMouseOver={(e) =>
-                    (e.currentTarget.style.color = "var(--secondary)")
-                  }
-                  onMouseOut={(e) =>
-                    (e.currentTarget.style.color = "var(--primary)")
-                  }
-                >
-                  Learn more{" "}
-                  <ArrowRight size={16} style={{ marginLeft: "0.5rem" }} />
-                </Link>
-              </div>
-            </FadeInSection>
-
-            <FadeInSection>
-              <div className="card service-card">
-                <FileText size={40} className="text-primary mb-6" />
-                <h3
-                  className="text-white"
-                  style={{
-                    fontSize: "1.5rem",
-                    fontWeight: "bold",
-                    marginBottom: "0.75rem",
-                  }}
-                >
-                  Regulatory and Compliance Review
-                </h3>
-                <p className="text-gray mb-6">
-                  Navigate complex regulatory environments with our expert
-                  guidance to ensure your business meets all legal and
-                  compliance requirements in target markets.
-                </p>
-                <Link
-                  to="/contact"
-                  className="flex items-center text-primary"
-                  style={{ transition: "color 0.3s ease" }}
-                  onMouseOver={(e) =>
-                    (e.currentTarget.style.color = "var(--secondary)")
-                  }
-                  onMouseOut={(e) =>
-                    (e.currentTarget.style.color = "var(--primary)")
-                  }
-                >
-                  Learn more{" "}
-                  <ArrowRight size={16} style={{ marginLeft: "0.5rem" }} />
-                </Link>
-              </div>
-            </FadeInSection>
-
-            <FadeInSection>
-              <div className="card service-card">
-                <Globe size={40} className="text-primary mb-6" />
-                <h3
-                  className="text-white"
-                  style={{
-                    fontSize: "1.5rem",
-                    fontWeight: "bold",
-                    marginBottom: "0.75rem",
-                  }}
-                >
-                  Localisation Requirements Analysis
-                </h3>
-                <p className="text-gray mb-6">
-                  Identify and address cultural, linguistic, and operational
-                  adaptations needed to successfully localize your products and
-                  services for EMEA markets.
-                </p>
-                <Link
-                  to="/contact"
-                  className="flex items-center text-primary"
-                  style={{ transition: "color 0.3s ease" }}
-                  onMouseOver={(e) =>
-                    (e.currentTarget.style.color = "var(--secondary)")
-                  }
-                  onMouseOut={(e) =>
-                    (e.currentTarget.style.color = "var(--primary)")
-                  }
-                >
-                  Learn more{" "}
-                  <ArrowRight size={16} style={{ marginLeft: "0.5rem" }} />
-                </Link>
-              </div>
-            </FadeInSection>
-
-            <FadeInSection>
-              <div className="card service-card">
                 <BarChart size={40} className="text-primary mb-6" />
                 <h3
                   className="text-white"
@@ -188,6 +83,41 @@ const Services = () => {
                   Identify and connect with the right partners, distributors,
                   and channels to accelerate your market entry and expansion
                   across EMEA.
+                </p>
+                <Link
+                  to="/contact"
+                  className="flex items-center text-primary"
+                  style={{ transition: "color 0.3s ease" }}
+                  onMouseOver={(e) =>
+                    (e.currentTarget.style.color = "var(--secondary)")
+                  }
+                  onMouseOut={(e) =>
+                    (e.currentTarget.style.color = "var(--primary)")
+                  }
+                >
+                  Learn more{" "}
+                  <ArrowRight size={16} style={{ marginLeft: "0.5rem" }} />
+                </Link>
+              </div>
+            </FadeInSection>
+
+            <FadeInSection>
+              <div className="card service-card">
+                <Search size={40} className="text-primary mb-6" />
+                <h3
+                  className="text-white"
+                  style={{
+                    fontSize: "1.5rem",
+                    fontWeight: "bold",
+                    marginBottom: "0.75rem",
+                  }}
+                >
+                  Market Opportunity Assessment
+                </h3>
+                <p className="text-gray mb-6">
+                  Comprehensive analysis of market potential, competitive
+                  landscape, and entry barriers to identify the most promising
+                  opportunities for your business.
                 </p>
                 <Link
                   to="/contact"

@@ -28,7 +28,10 @@ const Header = () => {
             alt="Tatooine Networks"
             style={{ height: "80px", width: "auto" }}
           />
-          <span>Tatooine Networks</span>
+          <div className="flex  justify-center items-center flex-col">
+            <span>Tatooine Networks</span>
+            <p className="text-sm">GoToMarket as a service</p>
+          </div>
         </Link>
 
         {/* Desktop Navigation */}
@@ -36,7 +39,6 @@ const Header = () => {
           <Link to="/">Home</Link>
           <Link to="/about">About</Link>
           <Link to="/services">Services</Link>
-          <Link to="/why">Why Us</Link>
           <Link to="/contact" className="contact-button">
             Contact Us
           </Link>
@@ -63,9 +65,7 @@ const Header = () => {
           <Link to="/services" onClick={() => setIsMenuOpen(false)}>
             Services
           </Link>
-          <Link to="/why" onClick={() => setIsMenuOpen(false)}>
-            Why Us
-          </Link>
+
           <Link to="/contact" onClick={() => setIsMenuOpen(false)}>
             Contact Us
           </Link>
