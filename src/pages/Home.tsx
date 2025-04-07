@@ -18,18 +18,18 @@ const Home = () => {
             <h1
               className="text-white"
               style={{
-                fontSize: "3rem", // augmenté de 2.5rem à 3rem
+                fontSize: "3rem",
                 fontWeight: "bold",
-                marginBottom: "2rem", // un peu plus d'espace
+                marginBottom: "2rem",
               }}
             >
               Extend Your Reach Across EMEA
             </h1>
             <p
-              className="text-gray w-2/3" // un peu plus large pour respirer
+              className="text-gray w-2/3"
               style={{
-                fontSize: "1.5rem", // augmenté de 1.25rem à 1.5rem
-                marginBottom: "2.5rem", // plus d’espace en bas
+                fontSize: "1.5rem",
+                marginBottom: "2.5rem",
               }}
             >
               We build customized teams for sales acceleration and legitimize
@@ -37,7 +37,7 @@ const Home = () => {
             </p>
             <div
               className="flex justify-center flex-col gap-5"
-              style={{ maxWidth: "450px" }} // un peu plus large
+              style={{ maxWidth: "450px" }}
             >
               <Link to="/services" className="btn btn-primary text-lg py-3">
                 Our Services
