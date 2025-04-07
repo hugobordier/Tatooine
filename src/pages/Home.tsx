@@ -14,7 +14,7 @@ const Home = () => {
         style={{ backgroundImage: `url(${background})` }}
       >
         <div className="container hero-content">
-          <div className="w-full container flex justify-center items-center flex-col text-center">
+          <div className="w-full flex justify-center items-center flex-col text-center">
             <h1
               className="text-white"
               style={{
