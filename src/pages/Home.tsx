@@ -14,34 +14,35 @@ const Home = () => {
         style={{ backgroundImage: `url(${background})` }}
       >
         <div className="container hero-content">
-          <div className="w-full flex jutsify-center items-center flex-col text-center">
-            {" "}
-            {/* //max-w-3xl */}
+          <div className="w-full flex justify-center items-center flex-col text-center">
             <h1
               className="text-white"
               style={{
-                fontSize: "2.5rem",
+                fontSize: "3rem", // augmenté de 2.5rem à 3rem
                 fontWeight: "bold",
-                marginBottom: "1.5rem",
+                marginBottom: "2rem", // un peu plus d'espace
               }}
             >
               Extend Your Reach Across EMEA
             </h1>
             <p
-              className="text-gray w-1/2"
-              style={{ fontSize: "1.25rem", marginBottom: "2rem" }}
+              className="text-gray w-2/3" // un peu plus large pour respirer
+              style={{
+                fontSize: "1.5rem", // augmenté de 1.25rem à 1.5rem
+                marginBottom: "2.5rem", // plus d’espace en bas
+              }}
             >
               We build customized teams for sales acceleration and legitimize
               your business in the places you want to expand to.
             </p>
             <div
-              className="flex  justify-center flex-col gap-4"
-              style={{ maxWidth: "400px" }}
+              className="flex justify-center flex-col gap-5"
+              style={{ maxWidth: "450px" }} // un peu plus large
             >
-              <Link to="/services" className="btn btn-primary">
+              <Link to="/services" className="btn btn-primary text-lg py-3">
                 Our Services
               </Link>
-              <Link to="/contact" className="btn btn-outline">
+              <Link to="/contact" className="btn btn-outline text-lg py-3">
                 Contact Us
               </Link>
             </div>
