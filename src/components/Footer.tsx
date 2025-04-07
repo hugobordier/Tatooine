@@ -1,12 +1,5 @@
 import { Link } from "react-router-dom";
-import {
-  Mail,
-  MapPin,
-  Phone,
-  Linkedin,
-  Twitter,
-  Facebook,
-} from "react-feather";
+import { Mail, MapPin, Linkedin, Twitter, Facebook } from "react-feather";
 
 const Footer = () => {
   return (
@@ -63,9 +56,6 @@ const Footer = () => {
                 <Link to="/services">Services</Link>
               </li>
               <li>
-                <Link to="/why">Why Us</Link>
-              </li>
-              <li>
                 <Link to="/contact">Contact</Link>
               </li>
             </ul>
@@ -77,10 +67,6 @@ const Footer = () => {
               <li>
                 <MapPin size={20} />
                 <span>EMEA Region</span>
-              </li>
-              <li>
-                <Phone size={20} />
-                <span>+33 (0) 1 23 45 67 89</span>
               </li>
               <li>
                 <Mail size={20} />

@@ -10,11 +10,13 @@ const Home = () => {
   return (
     <>
       <section
-        className="hero-section relative" // Added relative for positioning dividers
-        style={{ backgroundImage: `url(${background})` }} // Fixed template string syntax
+        className="hero-section relative"
+        style={{ backgroundImage: `url(${background})` }}
       >
         <div className="container hero-content">
-          <div className="max-w-3xl">
+          <div className="w-full flex jutsify-center items-center flex-col text-center">
+            {" "}
+            {/* //max-w-3xl */}
             <h1
               className="text-white"
               style={{
@@ -26,13 +28,16 @@ const Home = () => {
               Extend Your Reach Across EMEA
             </h1>
             <p
-              className="text-gray"
+              className="text-gray w-1/2"
               style={{ fontSize: "1.25rem", marginBottom: "2rem" }}
             >
               We build customized teams for sales acceleration and legitimize
               your business in the places you want to expand to.
             </p>
-            <div className="flex flex-col gap-4" style={{ maxWidth: "400px" }}>
+            <div
+              className="flex  justify-center flex-col gap-4"
+              style={{ maxWidth: "400px" }}
+            >
               <Link to="/services" className="btn btn-primary">
                 Our Services
               </Link>
