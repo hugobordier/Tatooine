@@ -2,8 +2,6 @@ import { Link } from "react-router-dom";
 import FadeInSection from "@/components/FadeInSection";
 import {
   ArrowRight,
-  Globe,
-  FileText,
   Search,
   BarChart,
   Users,
