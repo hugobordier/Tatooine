@@ -24,7 +24,7 @@ const About = () => {
           <div className="grid grid-2 items-center">
             <FadeInSection>
               <LazyImage
-                src="/about.png"
+                src="/logov2.png"
                 alt="Business meeting"
                 className="rounded-lg"
               />
