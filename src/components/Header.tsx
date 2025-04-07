@@ -24,13 +24,14 @@ const Header = () => {
       <div className="container header-container">
         <Link to="/" className="logo">
           <img
-            src="/logo.png"
+            src="/logov2.png"
             alt="Tatooine Networks"
-            style={{ height: "80px", width: "auto" }}
+            style={{ height: "100px", width: "auto" }}
           />
           <div className="flex  justify-center items-center flex-col">
             <span>Tatooine Networks</span>
-            <p className="text-sm">GoToMarket as a service</p>
+            <p className="text-xs">GoToMarket as a service</p>
+            <p className="text-xs">for Cyber vendors </p>
           </div>
         </Link>
 

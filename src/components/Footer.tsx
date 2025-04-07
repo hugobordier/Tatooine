@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="footer-grid">
           <div>
             <Link to="/" className="footer-logo">
-              <img src="/logo.png" alt="Tatooine Networks" />
+              <img src="/logov2.png" alt="Tatooine Networks" />
               <span>Tatooine Networks</span>
             </Link>
             <p className="footer-description">
