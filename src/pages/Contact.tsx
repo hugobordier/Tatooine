@@ -2,7 +2,7 @@ import type React from "react";
 
 import { useState } from "react";
 import FadeInSection from "../components/FadeInSection";
-import { Mail, MapPin, Phone } from "react-feather";
+import { Mail, MapPin } from "react-feather";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
