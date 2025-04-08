@@ -71,7 +71,7 @@ const Contact = () => {
                   hours.
                 </p>
 
-                <div className="space-y-6">
+                <div className="pt-32">
                   <div className="flex items-start gap-4">
                     <MapPin
                       size={24}
@@ -97,20 +97,6 @@ const Contact = () => {
                         Email
                       </h3>
                       <p className="text-gray">contact@tatooinenetworks.com</p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-start gap-4">
-                    <Phone
-                      size={24}
-                      className="text-primary"
-                      style={{ flexShrink: 0, marginTop: "0.25rem" }}
-                    />
-                    <div>
-                      <h3 className="text-white" style={{ fontWeight: "500" }}>
-                        Phone
-                      </h3>
-                      <p className="text-gray">+33 (0) 1 23 45 67 89</p>
                     </div>
                   </div>
                 </div>
